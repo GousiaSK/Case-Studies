@@ -1,0 +1,18 @@
+,Column Names,Descriptions,Datatypes
+0,sid,,meta_data
+1,id,,meta_data
+2,position,,meta_data
+3,created_at,,meta_data
+4,created_meta,,meta_data
+5,updated_at,,meta_data
+6,updated_meta,,meta_data
+7,meta,,meta_data
+8,calendar_year,Calendar Year,number
+9,cal_month_num,Month,number
+10,supplier,Supplier Name,text
+11,item_code,Item code,text
+12,item_description,Item Description,text
+13,item_type,Item Type,text
+14,rtl_sales,Cases of product sold from DLC dispensaries,number
+15,rtl_transfers,Cases of product transferred to DLC dispensaries,number
+16,whs_sales,Cases of product sold to MC licensees,number

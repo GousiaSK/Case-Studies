@@ -1,0 +1,25 @@
+,Column Names,Descriptions,Datatypes
+0,sid,,meta_data
+1,id,,meta_data
+2,position,,meta_data
+3,created_at,,meta_data
+4,created_meta,,meta_data
+5,updated_at,,meta_data
+6,updated_meta,,meta_data
+7,meta,,meta_data
+8,county,The county in which the licensed entity is physically located,text
+9,license_number,The licensed entity’s license number for this location,text
+10,operation_type,The type of operation the licensed entity conducts,text
+11,estab_type,"The establishment type for the licensed entity at this location; see document in ‘About’ section, or go to https://data.ny.gov/api/views/9a8c-vfzj/files/UBDP3oW2f-K767I4f51EJaIUO8eNGPrAQQj8tSvBhbo?download=true&filename=NYSDAM_RetailFoodStoresEstablishmentTypeCodes.pdf",text
+12,entity_name,The name of the licensed entity,text
+13,dba_name,“Doing business as” (DBA) name for the licensed entity,text
+14,street_number,The street number for the physical address of the licensed entity; will be blank if no data is recorded,text
+15,street_name,The street name for the physical location of the licensed entity; the first address line recorded,text
+16,address_line_2,The second address line recorded for the physical location of the licensed entity; blank if no data is recorded,text
+17,address_line_3,The third address line recorded for the physical location of the licensed entity; blank if no data is recorded,text
+18,city,The name of the city in which the licensed entity is physically located,text
+19,state,The two character state code for the physical location of the licensed entity,text
+20,zip_code,The United States Postal Service (USPS) ZIP code for the physical location of the licensed entity,text
+21,square_footage,The square footage of the entire physical location of the licensed entity,number
+22,georeference,,point
+23,@computed_region_yamh_8v7k,This column was automatically created in order to record in what polygon from the dataset 'NYS Municipal Boundaries' (yamh-8v7k) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.,number
